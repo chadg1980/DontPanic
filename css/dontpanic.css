@@ -1,0 +1,125 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 1;
+    background-color: black;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg");
+    background-repeat: no-repeat; 
+}
+#booklook{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 1px 1px ;
+    background-color: #304071;
+}
+
+
+#pageHead{
+    font-size: 90px;
+    color: red;
+    font-weight: bold;
+    text-shadow: 3px 2px black;
+    font-family: Cooper Black, Arial, Black, Sans-Serif;
+    margin-bottom: 10px;
+
+}
+.search{
+    
+    padding-bottom: 350px;
+    
+ 
+}
+.search:after{
+    clear: both;
+}
+.container{
+    text-align: center;
+}
+#searchBox{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    background-color: transparent;
+    padding: 5px 5px 5px 30px;
+    transition: all 1.0s ease-in-out;
+    
+}
+/*The placeholder text will be white, then dissapear when the box is enlarged*/
+#searchBox::-webkit-input-placeholder{color: white;  text-shadow: 1px 1px black;}
+#searchBox::-moz-input-placeholder{color: white; text-shadow: 1px 1px black;}
+#searchBox:-ms-input-placeholder{color: white; text-shadow: 1px 1px black;}
+#searchBox:-moz-input-placeholder{color: white; text-shadow: 1px 1px black;}
+#searchBox:focus{
+    width: 80%;
+    border-radius: 5px;
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+
+#searchBox:focus::-webkit-input-placeholder{color:transparent; text-shadow: none;}
+#searchBox:focus:-moz-placeholder{color:transparent; text-shadow: none;}
+#searchBox:focus::-moz-placeholder{color:transparent; text-shadow: none;}
+#searchBox:focus::-ms-input-placeholder{color:transparent; text-shadow: none;}
+
+#texts{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#direction{
+    padding-right: 50px;
+}
+#random:hover{
+   
+    cursor: pointer;
+}
+#return{
+    background-color: transparent;
+    padding: 10px;
+
+}
+#returnHead{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 1px black;
+    font-family: Arial, Sans-Serif;
+    margin-bottom: 10px;
+
+}
+.titles a{
+    text-decoration: none;
+    color: white;
+}
+.titles{
+    color: white;
+    text-shadow: 1px 1px black;
+    box-shadow: 1px 1px black;
+    background-color: #304071;
+    padding-top:5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    
+    
+    
+}
+footer{
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 0px;
+    
+}
+
